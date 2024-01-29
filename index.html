@@ -28,10 +28,12 @@
     </header>
 
     <div class="header-2">
+        
         <div class="logo">
             <img src="logo.png" />
             <div class="busca">
-                <input placeholder="Search Something" type="text" />
+                <input placeholder="Busque aqui" type="text" />
+                
             </div>
         </div>
         
@@ -40,6 +42,47 @@
     </header>
 </div>
 
+<div class="container">
+    <h1>ﾠ </h1>
+    <h1>AMIGURUMIS</h1>
+
+    <div class="product" id="product1">
+      <img src="download.jpg" alt="Produto 1">
+      <img src="download.jpg" alt="Produto 1">
+      <img src="download.jpg" alt="Produto 1">
+      
+      <h3>URSINHO DE GRAVATA</h3>
+      <p>Preço: R$ 19.99</p>
+      <button onclick="addToCart('Produto 1', 19.99)">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product" id="product2">
+      <img src="images.jpg" alt="Produto 2">
+      <img src="images.jpg" alt="Produto 2">
+      <img src="images.jpg" alt="Produto 2">
+      <h3>URSINHA</h3>
+      <p>Preço: R$ 29.99</p>
+      <button onclick="addToCart('Produto 2', 29.99)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="product" id="product2">
+        <img src="produto2.jpg" alt="Produto 2">
+        <img src="produto2.jpg" alt="Produto 2">
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>RAPOSA - PEQUENO PRINCIPE</h3>
+        <p>Preço: R$ 29.99</p>
+        <button onclick="addToCart('Produto 2', 29.99)">Adicionar ao Carrinho</button>
+      </div>
+
+    <!-- Mais produtos podem ser adicionados aqui -->
+
+    <div class="cart">
+      <h2>Carrinho de Compras</h2>
+      <ul id="cart-items"></ul>
+      <p id="total">Total: R$ 0.00</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 
 
 </body>
